@@ -1,0 +1,63 @@
+.heading{
+    color: #FFCB05;
+    font-size: 40px;
+}
+.h2{
+    color: whitesmoke;
+    margin-left: 20rem;
+    margin-top: 8rem;
+    font-size: 35px;
+}
+.h3{
+    font-size: 28px;
+    margin-left: 20rem;
+}
+.link{
+    color: #0f1490;
+    margin-left: 20rem;
+    font-size: 22px;
+    font-weight: 900;
+}
+.link:hover{
+    color: red;
+}
+.h4{
+    margin-left: 20rem;
+    margin-top: 4rem;
+    color: whitesmoke;
+}
+.button{
+    margin-left: 20rem;
+   
+}
+.b1,.b2{
+    height: 30px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 699px){
+    .heading{
+        font-size: 25px;
+    }
+    .h2{
+        margin-left: 4rem;
+        font-size: 22px;
+        margin-top: 4rem;
+    }
+    .h3{
+        margin-left: 4rem;
+        font-size: 22px;
+    }
+    .link{
+        margin-left: 4rem;
+        font-size: 14px;
+    }
+    .h4{
+        margin-left: 4rem;
+        margin-top: 2rem;
+        font-size: 16px;
+    }
+    .button{
+        margin-left: 4rem;
+    }
+}

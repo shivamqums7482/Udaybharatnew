@@ -1,0 +1,125 @@
+table {
+    width: 50%; 
+    border-collapse: collapse; 
+    margin: 20px auto; 
+    font-family: Arial, sans-serif;
+  }
+  
+  table, th, td {
+    border: 1px solid #333; 
+    text-align: center; 
+    padding: 10px; 
+  }
+  
+  th {
+    background-color: rgb(236, 211, 163);
+    font-weight: bold;
+  }
+  tr:nth-child(even) {
+    background-color: rgba(222, 220, 220, 0.934);
+  }
+  
+  tr:nth-child(odd) {
+    background-color: rgba(222, 220, 220, 0.934);
+  }
+
+  .heading{
+    color: whitesmoke;
+    text-align: center;
+    color: #FFCB05;
+    margin-top: 4rem;
+    font-size: 48px;
+}
+.underline{
+    width: 55px;
+height: 4px;
+background-color: #3f9d20;
+margin-left: 45.5rem;
+margin-top: -1.5rem;
+}
+
+.para{
+    color: whitesmoke;
+    width: 51%;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 4rem;
+    margin-left: 22.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.img{
+    position: relative;
+    height: 180vh;
+    width: 100%;
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+filter: brightness(50%) blur(2px);
+/* border-radius: 20px; */
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.head{
+    color: #FFCB05;
+    margin-left: 2rem;
+}
+.para1{
+    color: whitesmoke;
+    margin-left: 2rem;
+    font-size: 17px;
+    width: 50%;
+}
+.link, .link1{
+    color: red;
+    text-decoration: none;
+}
+.link:hover, .link1:hover{
+    color: whitesmoke;
+}
+.link1{
+    margin-left: 5.5rem;
+}
+
+@media only screen and (max-width: 699px){
+    .heading{
+        position: absolute;
+        margin-left: 7rem;
+        margin-top: 3rem;
+        font-size: 25px;
+        
+    }
+    .underline{
+        color: #3f9d20;
+        margin-left: 9rem;
+        margin-top: 5.3rem;
+        width: 55px;
+        height: 3px;
+    }
+    .table{
+        margin-left: 2rem;
+        width: 80%;
+        height: -0vh;
+    }
+    .para{
+        width: 86%;
+        margin-left: 1.3rem;
+        font-size: 11px;
+        margin-top: 3rem;
+    }
+    .head{
+        font-size: 18px;
+        margin-top: 3rem;
+    }
+    .para1{
+        font-size: 12px;
+        width: 78%;
+    }
+    .para2{
+        font-size: 12px;
+    }
+}

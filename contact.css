@@ -1,0 +1,67 @@
+/* .main{
+    position: absolute;
+    align-items: center;
+} */
+.contact{
+    /* position: relative; */
+    font-size: 55px;
+    color: #FFCB05;
+}
+
+.underline{
+    width: 75px;
+height: 4px;
+background-color: black;
+margin-left: 5.5rem;
+margin-top: -1.8rem;
+background-color: black;
+}
+.phone{
+    color: whitesmoke;
+    font-size: 22px;
+    margin-top: 3rem;
+    text-shadow:1px 1px 10px black;
+}
+.para1{
+    color: whitesmoke;
+    font-size: 22px;
+    text-shadow:1px 1px 10px black;
+}
+.ediemail{
+    color: white;
+    text-decoration: none;
+}
+.ediemail:hover{
+    color: #FFCB05;
+}
+.para{
+    color: whitesmoke;
+    font-size: 22px;
+    text-shadow:1px 1px 10px black;
+}
+
+@media only screen and (max-width: 699px) {
+    .contact{
+        font-size: 28px;
+        margin-top: 2rem;
+    }
+    .underline{
+        margin-top: -0.8rem;
+        margin-left: 2.8rem;
+        width: 55px;
+        height: 3px;
+    }
+    .phone{
+        font-size: 15px;
+        text-shadow:1px 1px 10px black;
+        margin-top: 2rem;
+    }
+    .para1{
+        font-size: 14px;
+        text-shadow:1px 1px 10px black;
+    }
+    .para{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
